@@ -23,35 +23,35 @@ namespace BSCodeAPI.Controllers
 
         // GET: api/<ValuesController>
         [HttpGet("GetAllProject")]
-        public List<Project> Get()
+        public List<Project> GetAllProject()
         {
             return _projectService.Get();
         }
 
         // GET api/<ValuesController>/5
         [HttpGet("GetProject/{id}")]
-        public Project Get(Guid id)
+        public Project GetProjectByID(Guid id)
         {
             return _projectService.Get(id);
         }
 
         // POST api/<ValuesController>
         [HttpPut("UpdateProject")]
-        public Project Update([FromBody] Project project)
+        public Project UpdateProject([FromBody] Project project)
         {
             return _projectService.Update(project);
         }
 
         // POST api/<ValuesController>
         [HttpPost("AddProject")]
-        public bool Add([FromBody] Project project)
+        public bool AddProject([FromBody] Project project)
         {
             return _projectService.Add(project);
         }
 
         // DELETE api/<ValuesController>/5
         [HttpDelete("DeleteProject/{id}")]
-        public bool Delete(Guid id)
+        public bool DeleteProjectByID(Guid id)
         {
             return _projectService.Delete(id);
         }

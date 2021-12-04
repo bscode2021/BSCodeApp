@@ -42,6 +42,7 @@ namespace BSCodeAPI
 
             services.AddTransient<IProjectService, ProjectService>();
             services.AddTransient<ITrainerService, TrainerService>();
+            services.AddTransient<IAboutService, AboutService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
