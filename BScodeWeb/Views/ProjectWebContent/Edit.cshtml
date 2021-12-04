@@ -1,0 +1,50 @@
+﻿@using BSCodeModels_Lib
+@model Project
+@{ 
+    Layout = "_ActionLayout";
+    ViewData["Header"] = "Web Content for About";
+}
+
+<form class="row g-3" asp-action="UpdateProject" asp-controller="ProjectWebContent">
+  <div class="col-md-6">
+    <label for="Name" class="form-label">Name</label>
+    <input type="text" class="form-control" name="Name">
+  </div>
+   <div class="col-md-12">
+    <label for="inputPassword4" class="form-label">Description</label>
+    <textarea class="form-control" name="Description" > </textarea>
+  </div>
+   <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select name="Level" class="form-select">
+      <option value="1">easy</option>
+      <option value="2">intermedia</option>
+      <option value="3">hard</option>
+    </select>
+  </div>
+   <div class="col-md-4">
+    <label for="TrainerID" class="form-label">Trainer</label>
+    <select name="TrainerID" class="form-select">
+      <option value="C4894A1B-1F91-4D19-81D9-3255F757FC06">Boban Srezovski</option>
+    </select>
+  </div>
+  <div class="col-4">
+    <label for="TehnologyUsed" class="form-label">Address</label>
+    <select name="TehnologyUsed" class="form-select" multiple>
+      <option value="1">easy</option>
+      <option value="2">intermedia</option>
+      <option value="3">hard</option>
+    </select>
+  </div>
+  <div class="col-12">
+    <label for="ImageName" class="form-label">Address 2</label>
+    <input type="file" class="form-control" name="ImageName" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-12">
+    @Html.LabelFor(model => model.ProjectURL, new { @class = "form-control" })
+    <input type="text" class="form-control" name="ProjectURL">
+  </div>
+  <div class="col-offset-4 col-4">
+    <button type="submit" class="btn btn-primary form-control">Update</button>
+  </div>
+</form>

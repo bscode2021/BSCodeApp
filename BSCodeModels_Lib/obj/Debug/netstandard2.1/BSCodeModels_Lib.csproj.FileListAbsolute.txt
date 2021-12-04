@@ -1,0 +1,10 @@
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\bin\Debug\netstandard2.1\BSCodeModels_Lib.deps.json
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\bin\Debug\netstandard2.1\BSCodeModels_Lib.dll
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\bin\Debug\netstandard2.1\BSCodeModels_Lib.pdb
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\obj\Debug\netstandard2.1\BSCodeModels_Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\obj\Debug\netstandard2.1\BSCodeModels_Lib.AssemblyInfoInputs.cache
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\obj\Debug\netstandard2.1\BSCodeModels_Lib.AssemblyInfo.cs
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\obj\Debug\netstandard2.1\BSCodeModels_Lib.csproj.CoreCompileInputs.cache
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\obj\Debug\netstandard2.1\BSCodeModels_Lib.dll
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\obj\Debug\netstandard2.1\BSCodeModels_Lib.pdb
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeModels_Lib\obj\Debug\netstandard2.1\BSCodeModels_Lib.csproj.AssemblyReference.cache

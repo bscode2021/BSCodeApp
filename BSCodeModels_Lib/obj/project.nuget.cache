@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/JjLKZqbbs3ZhbQ++cA6DNk5pl42myQM1Cd9jYigMDjv79XhnsO/pj/qsuANFroE9staj2KGjSkVYOB3rQuJOA==",
+  "success": true,
+  "projectFilePath": "D:\\CodeAcademy\\Development3\\BS\\BScodeApp\\BSCodeModels_Lib\\BSCodeModels_Lib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Srezovski\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
