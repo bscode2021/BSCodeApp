@@ -1,0 +1,72 @@
+﻿@using BSCodeModels_Lib
+@using static BSCodeModels_Lib.Support.SuportEnums
+@model Trainer
+
+@{
+    Layout = "_ActionLayout";
+    ViewData["Header"] = "Trainer";
+}
+
+@using (Html.BeginForm("Add", "Trainer", FormMethod.Post, new { @class = "row g-3", enctype="multipart/form-data"}))
+{
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.Name, new { @class = "form-label" })
+        @Html.TextBoxFor(model =>  model.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model =>  model.Name, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model =>  model.Description, new { @class = "form-label" })
+        @Html.TextAreaFor(model => model.Description, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.Specialty, new { @class = "form-label" })
+        @Html.DropDownListFor(m => m.Specialty, 
+             new List<SelectListItem>
+            {
+                new SelectListItem { Text = ((Specialty)1).ToString(), Value = "1"},
+                new SelectListItem { Text = ((Specialty)2).ToString(), Value = "2"},
+                new SelectListItem { Text = ((Specialty)3).ToString(), Value = "3"},
+                new SelectListItem { Text = ((Specialty)4).ToString(), Value = "4"}
+            })
+        @Html.ValidationMessageFor(model => model.Specialty, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.Image, new { @class = "form-label" })
+         <input type="file" id="ImageFile" name="ImageFile" size="23" class = "form-control" />
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.TwiterURL, new { @class = "form-label", @placeholder = "Separet points with ';'. Example: point1 some poiny; point2 some point; point3 some point" })
+        @Html.TextBoxFor(model => model.TwiterURL, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.TwiterURL, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.FacebookURL, new { @class = "form-label", @placeholder = "Separet points with ';'. Example: point1 some poiny; point2 some point; point3 some point" })
+        @Html.TextBoxFor(model => model.FacebookURL, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.FacebookURL, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.InstagramURl, new { @class = "form-label", @placeholder = "Separet points with ';'. Example: point1 some poiny; point2 some point; point3 some point" })
+        @Html.TextBoxFor(model => model.InstagramURl, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.InstagramURl, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.LinkedinURL, new { @class = "form-label", @placeholder = "Separet points with ';'. Example: point1 some poiny; point2 some point; point3 some point" })
+        @Html.TextBoxFor(model => model.LinkedinURL, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.LinkedinURL, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-4">
+        <button type="submit" class="btn btn-primary form-control">Add</button>
+    </div>
+     <div class="col-md-4">
+        <a asp-controller="Trainer" asp-action="List" class="btn btn-danger form-control">Cancel</a>
+    </div>
+}

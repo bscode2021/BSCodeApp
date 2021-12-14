@@ -32,7 +32,10 @@ namespace BScodeWeb.Controllers
                 {
                     about = await response.Content.ReadAsAsync<About>();
 
-                    ViewBag.Points = about.AboutPoints.Split(';').ToList();
+                    if (about != null)
+                        ViewBag.Points = about.AboutPoints.Split(';').ToList();
+                    else
+                        about = new About();
                 }
             }
 

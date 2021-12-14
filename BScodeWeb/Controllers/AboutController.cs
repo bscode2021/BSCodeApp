@@ -44,7 +44,6 @@ namespace BScodeWeb.Controllers
                 {
                     _client.BaseAddress = _baseUrl;
                     _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                    _client.DefaultRequestHeaders.Accept.Clear();
 
                     HttpResponseMessage response = await _client.PostAsJsonAsync("AddAbout", about);
 
@@ -134,7 +133,6 @@ namespace BScodeWeb.Controllers
             {
                 _client.BaseAddress = _baseUrl;
                 _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                _client.DefaultRequestHeaders.Accept.Clear();
                 HttpResponseMessage response = await _client.GetAsync("GetAbout");
 
                 if (response.IsSuccessStatusCode)
@@ -142,6 +140,23 @@ namespace BScodeWeb.Controllers
             }
 
             return View(about);
+        }
+
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            About about = new About();
+
+            using (HttpClient _client = new HttpClient())
+            {
+                _client.BaseAddress = _baseUrl;
+
+                HttpResponseMessage response = await _client.DeleteAsync("DeleteAbout\\" + id);
+
+                if (response.IsSuccessStatusCode)
+                    ViewBag.Message = response.StatusCode.ToString();
+            }
+
+            return RedirectToAction("List");
         }
     }
 }

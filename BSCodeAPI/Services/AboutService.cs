@@ -21,7 +21,7 @@ namespace BSCodeAPI.Services
         public bool Add(About about)
         {
             About _about = bSCodeDb.Abouts.FirstOrDefault();
-            if (_about.ID == Guid.Empty)
+            if (_about == null)
             {
                 bSCodeDb.Abouts.Add(about);
             }

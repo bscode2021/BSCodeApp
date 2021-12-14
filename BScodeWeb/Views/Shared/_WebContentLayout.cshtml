@@ -46,10 +46,10 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-item @(
-                            ViewContext.RouteData.Values["Controller"].ToString() == "Trainers" &&
+                            ViewContext.RouteData.Values["Controller"].ToString() == "Trainer" &&
                             ViewContext.RouteData.Values["Action"].ToString() == "List"
                             ? "activeSidebar" : "")"
-                           asp-area="" asp-controller="Trainers" asp-action="List">
+                           asp-area="" asp-controller="Trainer" asp-action="List">
                             <i class="fs-2 bi-file-person-fill"></i> <span class="ms-1 d-none d-sm-inline">Trainers</span>
                         </a>
                     </li>
