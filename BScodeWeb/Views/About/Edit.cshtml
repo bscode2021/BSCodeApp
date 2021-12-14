@@ -1,0 +1,48 @@
+﻿@using BSCodeModels_Lib
+@model About
+@{ 
+    Layout = "_ActionLayout";
+    ViewData["Header"] = "About";
+}
+
+@using (Html.BeginForm("Edit", "About", FormMethod.Post, new { @class = "row g-3", enctype="multipart/form-data"}))
+{
+    <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.Title, new { @class = "form-label" })
+        @Html.TextBoxFor(model =>  model.Title, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model =>  model.Title, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model =>  model.ShortDescription, new { @class = "form-label" })
+        @Html.TextAreaFor(model => model.ShortDescription, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ShortDescription, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.LongDescription, new { @class = "form-label" })
+        @Html.TextAreaFor(model => model.LongDescription, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.LongDescription, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.AboutPoints, new { @class = "form-label", @placeholder = "Separet points with ';'. Example: point1 some poiny; point2 some point; point3 some point" })
+        @Html.TextBoxFor(model => model.AboutPoints, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.AboutPoints, "", new { @class = "text-danger" })
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.LastThought, new { @class = "form-label" })
+        @Html.TextAreaFor(model => model.LastThought, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.LastThought, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="offset-md-2 col-md-8">
+        @Html.LabelFor(model => model.ImageName, new { @class = "form-label" })
+         <input type="file" id="ImageFile" name="ImageFile" size="23" class = "form-control" />
+    </div>
+
+     <div class="offset-md-2 col-md-8">
+        <button type="submit" class="btn btn-primary form-control">Add</button>
+    </div>
+}

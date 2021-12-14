@@ -17,5 +17,6 @@ namespace BSCodeAPI.Data
         public DbSet<Project> Projects { set; get; }
         public DbSet<Trainer> Trainers { set; get; }
         public DbSet<About> Abouts { set; get; }
+        public DbSet<Event> Events { set; get; }
     }
 }

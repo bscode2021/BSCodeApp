@@ -60,3 +60,6 @@ D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeAPI\obj\Debug\net5.0\BSCodeAPI.dl
 D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeAPI\obj\Debug\net5.0\ref\BSCodeAPI.dll
 D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeAPI\obj\Debug\net5.0\BSCodeAPI.pdb
 D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeAPI\obj\Debug\net5.0\BSCodeAPI.genruntimeconfig.cache
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\CodeAcademy\Development3\BS\BScodeApp\BSCodeAPI\bin\Debug\net5.0\System.IO.Pipelines.dll

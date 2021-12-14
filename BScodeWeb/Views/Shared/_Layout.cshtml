@@ -78,10 +78,10 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link @(
-                            ViewContext.RouteData.Values["Controller"].ToString() == "WebContent" &&
-                            ViewContext.RouteData.Values["Action"].ToString() == "Index"
+                            ViewContext.RouteData.Values["Controller"].ToString() == "Home" &&
+                            ViewContext.RouteData.Values["Action"].ToString() == "WebContent"
                             ? "active" : "")"
-                           asp-area="" asp-controller="WebContent" asp-action="Index">Web Content</a>
+                           asp-area="" asp-controller="Home" asp-action="WebContent">Web Content</a>
                     </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>

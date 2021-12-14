@@ -55,6 +55,32 @@ namespace BSCodeAPI.Migrations
                     b.ToTable("tbl_about");
                 });
 
+            modelBuilder.Entity("BSCodeModels_Lib.Event", b =>
+                {
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Disciption")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Time")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("tbl_event");
+                });
+
             modelBuilder.Entity("BSCodeModels_Lib.Project", b =>
                 {
                     b.Property<Guid>("ID")

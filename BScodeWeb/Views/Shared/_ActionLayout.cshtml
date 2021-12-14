@@ -2,21 +2,11 @@
     Layout = "_WebContentLayout";
 }
 
-<div class="row" style="margin-top: 5vh">
-    <h2 class="d-flex justify-content-center">Web content for @ViewData["Header"]</h2>
-    <div class="d-flex">
-        <a class="btn btn-primary flex-fill" asp-area="" asp-controller="@(ViewContext.RouteData.Values["Controller"].ToString())" asp-action="Add">Add</a>
-        <a class="btn btn-success flex-fill" asp-area="" asp-controller="@(ViewContext.RouteData.Values["Controller"].ToString())" asp-action="Edit">Edit</a>
-        <a class="btn btn-warning flex-fill" asp-area="" asp-controller="@(ViewContext.RouteData.Values["Controller"].ToString())" asp-action="List">List</a>
-    </div>
-</div>
-<Header>
-    <br />
-    <h3 class= "text-center">@(ViewContext.RouteData.Values["Action"].ToString()) @ViewData["Header"]</h3>
-    <br />
+<Header style="margin-top: 5vh ">
+    <h3 class="text-center">@ViewData["Header"] - @(ViewContext.RouteData.Values["Action"].ToString())</h3>
 </Header>
 
-<div class="container">
+<div class="container" style="margin-top: 5vh ">
     @RenderBody()
 </div>
 

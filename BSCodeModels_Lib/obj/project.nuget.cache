@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "/JjLKZqbbs3ZhbQ++cA6DNk5pl42myQM1Cd9jYigMDjv79XhnsO/pj/qsuANFroE9staj2KGjSkVYOB3rQuJOA==",
+  "dgSpecHash": "oairo1U3ucxzU4kg/4t95SfbKkSVfKnIAYgPhmqasGKaX6dmXTu7HwAh4FT7N662bv0ztpoMFbMlMb406go4FA==",
   "success": true,
   "projectFilePath": "D:\\CodeAcademy\\Development3\\BS\\BScodeApp\\BSCodeModels_Lib\\BSCodeModels_Lib.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Srezovski\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\Srezovski\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.12\\microsoft.aspnetcore.http.features.5.0.12.nupkg.sha512",
+    "C:\\Users\\Srezovski\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Srezovski\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Srezovski\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Srezovski\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\Srezovski\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Srezovski\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Srezovski\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Srezovski\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

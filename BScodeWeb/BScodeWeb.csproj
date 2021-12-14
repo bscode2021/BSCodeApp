@@ -13,6 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\img\Trainers\" />
+    <Folder Include="wwwroot\img\Events\" />
+    <Folder Include="wwwroot\img\About\" />
     <Folder Include="wwwroot\img\Projects\" />
   </ItemGroup>
 

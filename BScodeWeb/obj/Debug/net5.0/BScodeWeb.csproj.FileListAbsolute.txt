@@ -28,12 +28,6 @@ D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\staticwebass
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\BScodeWeb.TagHelpers.input.cache
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\BScodeWeb.TagHelpers.output.cache
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\BScodeWeb.RazorCoreGenerate.cache
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\AboutWebContent\Add.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\AboutWebContent\Edit.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\AboutWebContent\List.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\ContactWebContent\Add.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\ContactWebContent\Edit.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\ContactWebContent\List.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Home\Events.cshtml.g.cs
@@ -42,20 +36,11 @@ D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Home\ProjectDetails.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Home\Projects.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Home\Trainers.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\ProjectWebContent\Add.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\ProjectWebContent\Edit.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\ProjectWebContent\List.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Shared\_ActionLayout.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Shared\_WebContentLayout.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\WebContent\About.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\WebContent\Contact.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\WebContent\Events.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\WebContent\Index.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\WebContent\Projects.cshtml.g.cs
-D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\WebContent\Trainers.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\BScodeWeb.RazorTargetAssemblyInfo.cache
@@ -66,3 +51,13 @@ D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\BScodeWeb.dl
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\ref\BScodeWeb.dll
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\BScodeWeb.pdb
 D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\BScodeWeb.genruntimeconfig.cache
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\Home\WebContent.cshtml.g.cs
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\About\Add.cshtml.g.cs
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\About\Edit.cshtml.g.cs
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\About\List.cshtml.g.cs
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\About - Copy\Add.cshtml.g.cs
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\About - Copy\Edit.cshtml.g.cs
+D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\obj\Debug\net5.0\Razor\Views\About - Copy\List.cshtml.g.cs
