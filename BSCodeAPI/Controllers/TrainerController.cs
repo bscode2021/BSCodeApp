@@ -16,7 +16,7 @@ namespace BSCodeAPI.Controllers
 
         public TrainerController(ITrainerService service)
         {
-            _service = service; 
+            _service = service;
         }
 
 
@@ -42,7 +42,7 @@ namespace BSCodeAPI.Controllers
         }
 
         // PUT api/Trainer/UpdateTraner
-        [HttpPut("UpdateTraner")]
+        [HttpPut("UpdateTrainer")]
         public Trainer UpdateTraner([FromBody] Trainer trainer)
         {
             return _service.Update(trainer);

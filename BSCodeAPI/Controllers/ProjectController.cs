@@ -1,12 +1,8 @@
-﻿using BSCodeAPI.Services;
-using BSCodeAPI.Services.Interface;
+﻿using BSCodeAPI.Services.Interface;
 using BSCodeModels_Lib;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BSCodeAPI.Controllers
 {

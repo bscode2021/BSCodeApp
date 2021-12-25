@@ -18,6 +18,10 @@ namespace BScodeWeb.Controllers
         [HttpGet]
         public async Task<IActionResult> List()
         {
+            if (TempData["IsSuccess"] != null)
+            {
+                ViewBag.IsSuccess = TempData["IsSuccess"].ToString();
+            }
             List<Trainer> trainersList = new List<Trainer>();
 
             using (HttpClient _client = new HttpClient())
@@ -83,6 +87,7 @@ namespace BScodeWeb.Controllers
 
                     if (response.IsSuccessStatusCode)
                     {
+                        TempData["IsSuccess"] = "Successfuly Added Trainer!";
                         return RedirectToAction("List");
                     }
                     else
@@ -121,6 +126,7 @@ namespace BScodeWeb.Controllers
 
                     if (response.IsSuccessStatusCode)
                     {
+                        TempData["IsSuccess"] = "Successfuly Edited Trainer!";
                         return RedirectToAction("List");
                     }
                     else

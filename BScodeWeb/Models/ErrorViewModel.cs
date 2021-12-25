@@ -1,5 +1,3 @@
-using System;
-
 namespace BScodeWeb.Models
 {
     public class ErrorViewModel

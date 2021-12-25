@@ -1,8 +1,5 @@
 ﻿using BSCodeModels_Lib;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BSCodeAPI.Services.Interface
 {
@@ -11,7 +8,7 @@ namespace BSCodeAPI.Services.Interface
         About Get();
         bool Add(About about);
         About Update(About about);
-        bool Delete (Guid id);
+        bool Delete(Guid id);
 
     }
 }

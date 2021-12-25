@@ -21,7 +21,7 @@
         @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
     </div>
 
-     <div class="offset-md-2 col-md-8">
+     <div class="offset-md-2 col-md-4">
         @Html.LabelFor(model => model.Specialty, new { @class = "form-label" })
         @Html.DropDownListFor(m => m.Specialty, 
              new List<SelectListItem>
@@ -30,11 +30,11 @@
                 new SelectListItem { Text = ((Specialty)2).ToString(), Value = "2"},
                 new SelectListItem { Text = ((Specialty)3).ToString(), Value = "3"},
                 new SelectListItem { Text = ((Specialty)4).ToString(), Value = "4"}
-            })
+            }, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.Specialty, "", new { @class = "text-danger" })
     </div>
 
-     <div class="offset-md-2 col-md-8">
+     <div class="col-md-4">
         @Html.LabelFor(model => model.Image, new { @class = "form-label" })
          <input type="file" id="ImageFile" name="ImageFile" size="23" class = "form-control" />
     </div>

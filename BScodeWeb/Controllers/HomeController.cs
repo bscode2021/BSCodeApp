@@ -58,9 +58,20 @@ namespace BScodeWeb.Controllers
             return View(projects);
         }
 
-        public IActionResult Trainers()
+        public async Task<IActionResult> Trainers()
         {
-            return View();
+            List<Trainer> trainers = new List<Trainer>();
+
+            using (HttpClient _client = new HttpClient())
+            {
+                _client.BaseAddress = _baseUrl;
+                HttpResponseMessage response = await _client.GetAsync("Trainer/GetAllTrainers");
+
+                if (response.IsSuccessStatusCode)
+                    trainers = await response.Content.ReadAsAsync<List<Trainer>>();
+            }
+
+            return View(trainers);
         }
 
         public IActionResult Events()

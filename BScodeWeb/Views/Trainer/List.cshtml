@@ -7,11 +7,16 @@
 }
 
 
-<div class="row" >
+<div class="row">
     <div class="col-3">
         <a class="btn btn-outline-primary" asp-area="" asp-controller="@(ViewContext.RouteData.Values["Controller"].ToString())" asp-action="Add">Add @ViewData["Header"]</a>
     </div>
 </div>
+
+@if (ViewBag.IsSuccess != null)
+{
+    <div class="alert alert-success alert-dismissible fade show text-center" style="margin-top: 2vh">@ViewBag.IsSuccess</div>
+}
 
 <div class="row" style="margin-top: 5vh">
     <table class="table table-bordered border-primary">
@@ -25,17 +30,17 @@
         </thead>
         <tbody>
             @foreach (Trainer trainer in Model)
-           {
+            {
                 <tr>
-                <th scope="row">@(Model.IndexOf(trainer) + 1)</th>
-                <td>@trainer.Name</td>
-                <td>@trainer.Specialty</td>
-                <td scope="row">
-                    <a asp-action="Edit" asp-controller="@(ViewContext.RouteData.Values["Controller"].ToString())" class = "btn btn-success" asp-route-id="@(trainer.ID)" style="width: 48%"><i class="bi bi-pencil-square"></i></a>
-                    <a asp-action="Delete" asp-controller="@(ViewContext.RouteData.Values["Controller"].ToString())" class = "btn btn-danger" asp-route-id="@(trainer.ID)" style="width: 48%"><i class="bi bi-trash-fill"></i></a>
-                </td>
-            </tr>
-           }
+                    <th scope="row">@(Model.IndexOf(trainer) + 1)</th>
+                    <td>@trainer.Name</td>
+                    <td>@trainer.Specialty</td>
+                    <td scope="row">
+                        <a asp-action="Edit" asp-controller="@(ViewContext.RouteData.Values["Controller"].ToString())" class="btn btn-success" asp-route-id="@(trainer.ID)" style="width: 48%"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-action="Delete" asp-controller="@(ViewContext.RouteData.Values["Controller"].ToString())" class="btn btn-danger" asp-route-id="@(trainer.ID)" style="width: 48%"><i class="bi bi-trash-fill"></i></a>
+                    </td>
+                </tr>
+            }
         </tbody>
     </table>
 </div>
