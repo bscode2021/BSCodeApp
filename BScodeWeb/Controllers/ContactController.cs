@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BScodeWeb.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class ContactWebContentController : Controller
     {
         public IActionResult Add()

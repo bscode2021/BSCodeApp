@@ -26,8 +26,22 @@ using BScodeWeb.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\_ViewImports.cshtml"
+using BSCodeModels_Lib;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\_ViewImports.cshtml"
+using static BSCodeModels_Lib.Support.SuportEnums;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e5e9c3ad9a70674974f240c3c870714cc354fb4f", @"/Views/Home/Events.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eed17cb14175019c94eb3beb1d1197273d3769f3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"70b204da88e87a930330d9c55ec7f32d77012be6", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Events : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/img/events-1.jpg"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -82,7 +96,7 @@ using BScodeWeb.Models;
                 <div class=""card"">
                     <div class=""card-img"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e5e9c3ad9a70674974f240c3c870714cc354fb4f5073", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e5e9c3ad9a70674974f240c3c870714cc354fb4f5464", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -109,7 +123,7 @@ using BScodeWeb.Models;
                 <div class=""card"">
                     <div class=""card-img"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e5e9c3ad9a70674974f240c3c870714cc354fb4f7098", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e5e9c3ad9a70674974f240c3c870714cc354fb4f7489", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

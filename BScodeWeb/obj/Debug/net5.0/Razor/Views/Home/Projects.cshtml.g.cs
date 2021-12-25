@@ -27,6 +27,13 @@ using BScodeWeb.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 4 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\_ViewImports.cshtml"
+using static BSCodeModels_Lib.Support.SuportEnums;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\Home\Projects.cshtml"
 using BSCodeModels_Lib;
 
@@ -34,7 +41,7 @@ using BSCodeModels_Lib;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3c59140dfff595716021b59e33c3c63dbb4f61f4", @"/Views/Home/Projects.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eed17cb14175019c94eb3beb1d1197273d3769f3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"70b204da88e87a930330d9c55ec7f32d77012be6", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Projects : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Project>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/img/course-1.jpg"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -105,7 +112,7 @@ using BSCodeModels_Lib;
 #line hidden
 #nullable disable
             WriteLiteral("             <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\">\r\n                <div class=\"course-item\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3c59140dfff595716021b59e33c3c63dbb4f61f47406", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3c59140dfff595716021b59e33c3c63dbb4f61f47615", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -129,7 +136,7 @@ using BSCodeModels_Lib;
 #line hidden
 #nullable disable
             WriteLiteral("</h4>\r\n                            <p class=\"price\">$169</p>\r\n                        </div>\r\n\r\n                        <h3>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c59140dfff595716021b59e33c3c63dbb4f61f49154", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c59140dfff595716021b59e33c3c63dbb4f61f49363", async() => {
 #nullable restore
 #line 31 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\Home\Projects.cshtml"
                                                                                                          Write(p.Name);
@@ -165,7 +172,7 @@ using BSCodeModels_Lib;
                         <div class=""trainer d-flex justify-content-between align-items-center"">
                             <div class=""trainer-profile d-flex align-items-center"">
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3c59140dfff595716021b59e33c3c63dbb4f61f411824", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3c59140dfff595716021b59e33c3c63dbb4f61f412033", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

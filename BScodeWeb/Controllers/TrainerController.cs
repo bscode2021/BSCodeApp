@@ -1,4 +1,5 @@
 ﻿using BSCodeModels_Lib;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace BScodeWeb.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class TrainerController : Controller
     {
         private static readonly Uri _baseUrl = new Uri("https://localhost:44381/api/Trainer/");

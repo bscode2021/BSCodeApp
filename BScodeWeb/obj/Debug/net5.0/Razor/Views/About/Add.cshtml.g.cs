@@ -27,6 +27,13 @@ using BScodeWeb.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 4 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\_ViewImports.cshtml"
+using static BSCodeModels_Lib.Support.SuportEnums;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\About\Add.cshtml"
 using BSCodeModels_Lib;
 
@@ -34,7 +41,7 @@ using BSCodeModels_Lib;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9d0e885b9b34c770a63bb2020b8e5cec18980230", @"/Views/About/Add.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eed17cb14175019c94eb3beb1d1197273d3769f3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"70b204da88e87a930330d9c55ec7f32d77012be6", @"/Views/_ViewImports.cshtml")]
     public class Views_About_Add : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<About>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "About", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -217,7 +224,7 @@ using BSCodeModels_Lib;
 #nullable disable
             WriteLiteral("\r\n         <input type=\"file\" id=\"ImageFile\" name=\"ImageFile\" size=\"23\" class = \"form-control\" />\r\n    </div>\r\n");
             WriteLiteral("     <div class=\"offset-md-2 col-md-4\">\r\n        <button type=\"submit\" class=\"btn btn-primary form-control\">Add</button>\r\n    </div>\r\n     <div class=\"col-md-4\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d0e885b9b34c770a63bb2020b8e5cec1898023010309", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d0e885b9b34c770a63bb2020b8e5cec1898023010518", async() => {
                 WriteLiteral("Cancel");
             }
             );

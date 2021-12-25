@@ -27,6 +27,13 @@ using BScodeWeb.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 4 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\_ViewImports.cshtml"
+using static BSCodeModels_Lib.Support.SuportEnums;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\CodeAcademy\Development3\BS\BScodeApp\BScodeWeb\Views\About\Edit.cshtml"
 using BSCodeModels_Lib;
 
@@ -34,7 +41,7 @@ using BSCodeModels_Lib;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ab4080639aece06730fbb159d70e2dd4586e8a81", @"/Views/About/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eed17cb14175019c94eb3beb1d1197273d3769f3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"70b204da88e87a930330d9c55ec7f32d77012be6", @"/Views/_ViewImports.cshtml")]
     public class Views_About_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<About>
     {
         #pragma warning disable 1998

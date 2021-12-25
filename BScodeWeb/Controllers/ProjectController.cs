@@ -1,4 +1,5 @@
 ﻿using BSCodeModels_Lib;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace BScodeWeb.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class ProjectController : Controller
     {
         private static readonly HttpClient _client = new HttpClient();

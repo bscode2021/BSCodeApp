@@ -1,5 +1,6 @@
 ﻿using BSCodeModels_Lib;
 using BScodeWeb.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -100,6 +101,7 @@ namespace BScodeWeb.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        [Authorize(Roles = "admin")]
         public IActionResult WebContent()
         {
             return View();

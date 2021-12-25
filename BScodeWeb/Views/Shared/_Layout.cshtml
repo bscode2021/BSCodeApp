@@ -32,13 +32,13 @@
 
             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/BSCodeWebLogo.png" alt="" style="height:40px" /></a>
 
-            <nav id="navbar" class="navbar order-last order-lg-0 ms-auto">
+            <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
                     <li class="nav-item">
                         <a class="@(
                             ViewContext.RouteData.Values["Controller"].ToString() == "Home" &&
                             ViewContext.RouteData.Values["Action"].ToString() == "Index"
-                            ? "active" : "")" 
+                            ? "active" : "")"
                            asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     </li>
                     <li class="nav-item">
@@ -76,16 +76,20 @@
                             ? "active" : "")"
                            asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link @(
+                    @if (User.IsInRole("admin"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link @(
                             ViewContext.RouteData.Values["Controller"].ToString() == "Home" &&
                             ViewContext.RouteData.Values["Action"].ToString() == "WebContent"
                             ? "active" : "")"
                            asp-area="" asp-controller="Home" asp-action="WebContent">Web Content</a>
-                    </li>
+                        </li>
+                    }
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
+            <partial name="_LoginPartial" />
         </div>
     </header><!-- End Header -->
 
